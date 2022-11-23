@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Prague Spirits Trophy</title>
+
+	<!-- Google Fonts -->
+	<link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+
+	<!-- Naše vlastní CSS -->
+	<link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body>
+
+	<div class="kontejner">
+
+	<!-- sekce Header -->
+	<header class="header">
+		<img class="header__logo" src="/images/logo Prague Spirits Trophy.png" alt="logo Prague Spirits Trophy">
+
+		<nav class="header__navigation" role="navigation">
+			<ul class="header__menu">
+				<li><a class="header__link" href="#">about</a></li>
+				<li><a class="header__link" href="#">take part</a></li>
+				<li><a class="header__link" href="#">judges</a></li>
+				<li><a class="header__link" href="#">results</a></li>
+				<li><a class="header__link" href="#">partners</a></li>
+			</ul>
+		</nav>
+	</header>
+
+    <main class="main">
+		<!-- ↑↑↑ odtud nahoru je vrchní část společná pro všechny stránky na webu -->
+		{{ content | safe }}
+
+		<!-- ↓↓↓ odtud dolů je spodní část společná pro všechny stránky na webu -->
+	</main>
+
+    <!-- sekce patička -->
+	 <footer class="footer">
+		<p>©2022, Prague Wine Trophy</p>
+	</footer>
+	
+	</div>
+
+</body>
+</html>

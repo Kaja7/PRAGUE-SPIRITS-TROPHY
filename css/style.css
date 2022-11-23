@@ -1,0 +1,128 @@
+@charset "UTF-8";
+html {
+  box-sizing: border-box;
+}
+
+*, ::before, ::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  background-color: #EBE9E6;
+}
+
+.title {
+  font-size: 50px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.header__logo {
+  max-width: 30%;
+  margin: 60px;
+}
+.header__title {
+  color: #0C0A07;
+}
+.header__navigation {
+  margin-bottom: 90px;
+}
+.header__menu {
+  max-width: 80%;
+  margin: 30px;
+  margin-left: 15%;
+  margin-right: 15%;
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  text-transform: uppercase;
+  font-size: 25px;
+}
+.header__link {
+  color: #0C0A07;
+  padding: 20px;
+  text-decoration: none;
+}
+.header__link:hover {
+  background-color: #836724;
+  color: white;
+  border-radius: 30px;
+}
+
+.medals {
+  margin: 30px;
+}
+
+.medals__image {
+  max-width: 70%;
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+.about {
+  margin-top: 90px;
+  margin-left: 20%;
+  margin-right: 20%;
+  max-width: 60%;
+  font-size: 20px;
+  text-align: center;
+}
+
+.profiles {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  line-height: 70%;
+  gap: 90px;
+  margin-top: 90px;
+  margin-bottom: 90px;
+}
+
+.simon,
+.sarka {
+  text-align: center;
+  line-height: 70%;
+}
+
+.simon img,
+.sarka img {
+  width: 300px;
+  border-radius: 50%;
+  border: 5px solid white;
+  box-shadow: rgba(64, 123, 255, 0.1215686275) 0 4px 6px;
+}
+
+.footer {
+  margin-top: 60px;
+  width: 100%;
+  height: 200px;
+  text-align: center;
+  background-color: #836724;
+  color: white;
+}
+
+/*Grid Judges*/
+.judges {
+  margin-top: 60px;
+  margin-left: 5%;
+  margin-right: 5%;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 400px));
+  grid-auto-flow: row;
+  row-gap: 30px;
+  justify-items: center;
+  align-items: center;
+}
+
+/*Nastylování stránky Judges*/
+.judges {
+  gap: 30px;
+  background-color: #F0EADD;
+}
+
+.judges__image {
+  max-width: 350px;
+}/*# sourceMappingURL=style.css.map */
