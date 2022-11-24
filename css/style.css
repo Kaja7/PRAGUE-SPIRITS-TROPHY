@@ -10,10 +10,12 @@ html {
 body {
   margin: 0;
   background-color: #EBE9E6;
+  font-family: Spectral;
 }
 
 .title {
   font-size: 50px;
+  font-family: "Libre Caslon Display";
   text-align: center;
   margin-left: auto;
   margin-right: auto;
@@ -31,7 +33,6 @@ body {
 }
 .header__menu {
   max-width: 80%;
-  margin: 30px;
   margin-left: 15%;
   margin-right: 15%;
   list-style: none;
@@ -39,7 +40,8 @@ body {
   display: flex;
   justify-content: space-between;
   text-transform: uppercase;
-  font-size: 25px;
+  font-size: 30px;
+  font-family: "Libre Caslon Display";
 }
 .header__link {
   color: #0C0A07;
@@ -125,4 +127,17 @@ body {
 
 .judges__image {
   max-width: 350px;
+}
+
+/*Grid Partners*/
+.partners {
+  margin-top: 90px;
+  margin-left: 5%;
+  margin-right: 5%;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 400px));
+  grid-auto-flow: row;
+  row-gap: 30px;
+  justify-items: center;
+  align-items: center;
 }/*# sourceMappingURL=style.css.map */
