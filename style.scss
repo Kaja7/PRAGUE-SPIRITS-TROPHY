@@ -2,13 +2,14 @@ html { box-sizing: border-box; }
 *, ::before, ::after { box-sizing: inherit; }
 
 $font-color: #0C0A07;
+$background-color: #EBE9E6;
 $menu-hover: #836724;
 
 $spacer: 30px;
 
 body {
     margin: 0;
-    background-color: #EBE9E6;
+    background-color: $background-color;
     font-family: Spectral;
 }
 
@@ -133,12 +134,16 @@ body {
 /*Nastylování stránky Judges*/
 .judges {
     gap: 30px;
-    background-color: #F0EADD;
+
 }
 
 .judges__image {
 
     max-width: 350px;
+}
+
+.expertise {
+    font-weight: 600;
 }
 
 /*Grid Partners*/
