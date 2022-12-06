@@ -123,11 +123,13 @@ body {
     margin-left: 5%;
     margin-right: 5%;
     display: grid;
-    grid-template-columns: repeat(auto-fill, (minmax(200px, 400px)));
+    grid-template-columns: repeat(auto-fill, 400px);
     grid-auto-flow: row;
-    row-gap: 30px;
+    column-gap: 40px;
+    row-gap: 40px;
     justify-items: center;
-    align-items: center;
+    align-items: start;
+
   
 }
 
@@ -139,11 +141,21 @@ body {
 
 .judges__image {
 
-    max-width: 350px;
+    max-width: 400px;
+}
+
+.judges__text {
+    font-size: 20px;
 }
 
 .expertise {
-    font-weight: 600;
+    font-style: italic;
+}
+
+h3 {
+    font-size: 30px;
+    margin: $spacer/2;
+    margin-left: 0;
 }
 
 /*Grid Partners*/
@@ -156,6 +168,28 @@ body {
     grid-auto-flow: row;
     row-gap: 30px;
     justify-items: center;
-    align-items: center;
+    align-items: baseline;
   
 }
+
+
+/*Nastylování stránky Take Part*/
+
+.takepart__para {
+    max-width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: $spacer*2;
+    padding: 10px;
+    padding-left: $spacer;
+    padding-right: $spacer;
+    border-style: solid;
+    border-width: 1.5px;
+    font-size: 20px;
+}
+
+.categories {
+    column-count: 3;
+    margin-top: 0;
+}
+
