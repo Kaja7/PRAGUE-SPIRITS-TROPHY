@@ -69,7 +69,7 @@ body {
   margin-left: 20%;
   margin-right: 20%;
   max-width: 60%;
-  font-size: 20px;
+  font-size: 24px;
   text-align: center;
 }
 
@@ -112,7 +112,7 @@ body {
   margin-left: 5%;
   margin-right: 5%;
   display: grid;
-  grid-template-columns: repeat(auto-fill, 400px);
+  grid-template-columns: repeat(auto-fill, minmax(200px, 400px));
   grid-auto-flow: row;
   -moz-column-gap: 40px;
        column-gap: 40px;
@@ -189,4 +189,50 @@ h3 {
   padding-left: 30px;
   padding-right: 30px;
   font-size: 20px;
+}
+
+/* Tablet 1200px a méně */
+@media screen and (max-width: 1200px) {
+  .header__logo {
+    max-width: 60%;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 90px;
+  }
+  .header__menu {
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    margin-top: 0;
+    font-size: 50px;
+  }
+  .header__link {
+    padding: 10px;
+    color: white;
+  }
+  .header__list {
+    width: 70%;
+    margin: 22.5px;
+    background-color: #836724;
+    border-radius: 3%;
+    padding: 20px;
+    text-align: center;
+  }
+}
+.medals__image {
+  max-width: 90%;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.about {
+  max-width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.categories {
+  -moz-column-count: 2;
+       column-count: 2;
+  margin: 30px;
 }/*# sourceMappingURL=style.css.map */
