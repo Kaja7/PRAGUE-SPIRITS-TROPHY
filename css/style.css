@@ -83,6 +83,10 @@ body {
   margin-bottom: 90px;
 }
 
+.profiles__h3 {
+  font-size: 30px;
+}
+
 .simon,
 .sarka {
   text-align: center;
@@ -136,11 +140,12 @@ body {
 
 .expertise {
   font-style: italic;
+  margin: 0;
 }
 
-h3 {
+.judges__h3 {
   font-size: 30px;
-  margin: 15px;
+  margin: 10px;
   margin-left: 0;
 }
 
@@ -214,25 +219,32 @@ h3 {
     width: 70%;
     margin: 22.5px;
     background-color: #836724;
-    border-radius: 5px;
+    border-radius: 20px;
     padding: 20px;
     text-align: center;
   }
+  .medals__image {
+    max-width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  .about {
+    max-width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+  .categories {
+    -moz-column-count: 2;
+         column-count: 2;
+    margin: 30px;
+  }
 }
-.medals__image {
-  max-width: 90%;
-  margin-left: 5%;
-  margin-right: 5%;
-}
-
-.about {
-  max-width: 80%;
-  margin-left: 10%;
-  margin-right: 10%;
-}
-
-.categories {
-  -moz-column-count: 2;
-       column-count: 2;
-  margin: 30px;
+/* Mobil 750px a méně */
+@media screen and (max-width: 750px) {
+  header__menu {
+    font-size: 30px;
+  }
+  header__list {
+    width: 80%;
+  }
 }/*# sourceMappingURL=style.css.map */
