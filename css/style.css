@@ -174,7 +174,7 @@ body {
   margin-left: auto;
   margin-right: auto;
   margin-top: 60px;
-  padding: 10px;
+  padding: 5px;
   padding-left: 30px;
   padding-right: 30px;
   border-style: solid;
@@ -242,7 +242,8 @@ body {
   .categories {
     -moz-column-count: 2;
          column-count: 2;
-    margin: 30px;
+    margin: 15px;
+    line-height: 2;
   }
 }
 /* Mobil 750px a méně */
@@ -268,5 +269,14 @@ body {
   }
   .judges__text {
     max-width: 90%;
+  }
+  .takepart__para {
+    max-width: 90%;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .categories {
+    margin-left: 15px;
+    line-height: 2;
   }
 }/*# sourceMappingURL=style.css.map */

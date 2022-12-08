@@ -192,7 +192,7 @@ body {
     margin-left: auto;
     margin-right: auto;
     margin-top: $spacer*2;
-    padding: 10px;
+    padding: 5px;
     padding-left: $spacer;
     padding-right: $spacer;
     border-style: solid;
@@ -267,7 +267,8 @@ body {
 
     .categories {
         column-count: 2;
-        margin: $spacer;
+        margin: $spacer/2;
+        line-height: 2;
     }
 }
 
@@ -297,5 +298,14 @@ body {
     }
     .judges__text {
         max-width: 90%;
+    }
+    .takepart__para {
+        max-width: 90%;
+        padding-left: $spacer/2;
+    padding-right: $spacer/2;
+    }
+    .categories {
+        margin-left: $spacer/2;
+        line-height: 2;
     }
 }
