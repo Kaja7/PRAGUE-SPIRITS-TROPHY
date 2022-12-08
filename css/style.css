@@ -279,4 +279,7 @@ body {
     margin-left: 15px;
     line-height: 2;
   }
+  .results__para {
+    max-width: 90%;
+  }
 }/*# sourceMappingURL=style.css.map */
