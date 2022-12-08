@@ -157,8 +157,8 @@ body {
 /*Grid Partners*/
 .partners {
   margin-top: 90px;
-  margin-left: 5%;
-  margin-right: 5%;
+  /*margin-left: 10%;
+  margin-right: 10%;*/
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(200px, 400px));
   grid-auto-flow: row;
