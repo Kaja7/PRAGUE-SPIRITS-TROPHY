@@ -51,7 +51,7 @@ body {
 .header__link:hover {
   background-color: #836724;
   color: white;
-  border-radius: 30px;
+  border-radius: 20px;
 }
 
 .medals {
