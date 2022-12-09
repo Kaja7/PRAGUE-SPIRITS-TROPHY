@@ -219,11 +219,13 @@ body {
     justify-items: center;
     align-items: center;
     margin-top: 0;
-    font-size: 50px;
   }
   .header__link {
     padding: 10px;
     color: white;
+  }
+  .header__link:hover {
+    background-color: #CFAB40;
   }
   .header__list {
     width: 70%;
@@ -232,6 +234,10 @@ body {
     border-radius: 20px;
     padding: 20px;
     text-align: center;
+  }
+  .header__list:hover {
+    background-color: #CFAB40;
+    text-shadow: 2px 2px #836724;
   }
   .medals__image {
     max-width: 90%;

@@ -241,11 +241,19 @@ body {
             justify-items: center;
             align-items: center;
             margin-top: 0;
-            font-size: 50px;
+            
         }
         &__link {
            padding: 10px;
            color: white;
+            
+                &:hover {
+                    background-color: #CFAB40;
+                   
+                   
+            
+                
+            }
         }
         &__list {
             width: 70%;
@@ -254,6 +262,11 @@ body {
             border-radius: 20px;
             padding: 20px;
             text-align: center;
+
+                &:hover {
+                    background-color: #CFAB40; 
+                    text-shadow: 2px 2px $menu-hover;
+            }
         }
     }
 
