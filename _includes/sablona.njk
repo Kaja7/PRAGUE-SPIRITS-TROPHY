@@ -22,11 +22,11 @@
 
 		<nav class="header__navigation" role="navigation">
 			<ul class="header__menu">
-				<li class="header__list"><a class="header__link" href="/">about</a></li>
-				<li class="header__list"><a class="header__link" href="/takepart/">take part</a></li>
-				<li class="header__list"><a class="header__link" href="/judges/">judges</a></li>
-				<li class="header__list"><a class="header__link" href="/results/">results</a></li>
-				<li class="header__list"><a class="header__link" href="/partners/">partners</a></li>
+				<li class="header__list {{ 'header__list--active' if page.fileSlug === ''}}""><a class="header__link {{ 'header__link--active' if page.fileSlug === ''}}" href="/">about</a></li>
+				<li class="header__list {{ 'header__list--active' if page.fileSlug === 'takepart'}}""><a class="header__link {{ 'header__link--active' if page.fileSlug === 'takepart'}}" href="/takepart/">take part</a></li>
+				<li class="header__list {{ 'header__list--active' if page.fileSlug === 'judges'}}"><a class="header__link {{ 'header__link--active' if page.fileSlug === 'judges'}}" href="/judges/">judges</a></li>
+				<li class="header__list {{ 'header__list--active' if page.fileSlug === 'results'}}"><a class="header__link {{ 'header__link--active' if page.fileSlug === 'results'}}" href="/results/">results</a></li>
+				<li class="header__list {{ 'header__list--active' if page.fileSlug === 'partners'}}"><a class="header__link {{ 'header__link--active' if page.fileSlug === 'partners'}}" href="/partners/">partners</a></li>
 			</ul>
 		</nav>
 	</header>

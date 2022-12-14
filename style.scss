@@ -61,6 +61,19 @@ body {
     }
 }
 
+
+.header__link--active {
+    /*background-color: $menu-hover;
+    color: white;
+    border-radius: 20px;*/
+    text-decoration: underline;
+    text-underline-offset: 8px;
+    text-decoration-style: double;
+    text-decoration-color: $menu-hover;
+    /*text-emphasis-style: circle;
+    text-emphasis-position: under;*/
+}
+
 .medals {
     margin: $spacer;
 }
@@ -268,6 +281,15 @@ body {
                     text-shadow: 2px 2px $menu-hover;
             }
         }
+    }
+    
+    .header__link--active {
+        text-decoration: none;
+    }
+
+    .header__list--active {
+        background-color: #CFAB40;
+        text-shadow: 2px 2px $menu-hover;
     }
 
     .medals__image {

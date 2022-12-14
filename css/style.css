@@ -54,6 +54,20 @@ body {
   border-radius: 20px;
 }
 
+.header__link--active {
+  /*background-color: $menu-hover;
+  color: white;
+  border-radius: 20px;*/
+  text-decoration: underline;
+  text-underline-offset: 8px;
+  -webkit-text-decoration-style: double;
+          text-decoration-style: double;
+  -webkit-text-decoration-color: #836724;
+          text-decoration-color: #836724;
+  /*text-emphasis-style: circle;
+  text-emphasis-position: under;*/
+}
+
 .medals {
   margin: 30px;
 }
@@ -236,6 +250,13 @@ body {
     text-align: center;
   }
   .header__list:hover {
+    background-color: #CFAB40;
+    text-shadow: 2px 2px #836724;
+  }
+  .header__link--active {
+    text-decoration: none;
+  }
+  .header__list--active {
     background-color: #CFAB40;
     text-shadow: 2px 2px #836724;
   }
